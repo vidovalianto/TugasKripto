@@ -16,8 +16,8 @@ public class Main {
     System.out.println("Masukkan nilai x yang lebih kecil dari "+p+":");
     BigInteger x=new BigInteger(br.readLine());
     BigInteger R1=g.modPow(x,p);
-    //R1 = g^x mod p
     System.out.println("R1="+R1);
+    //R1 = g^x mod p
     System.out.print("masukkan nilai y yang lebih kecil dari "+p+":");
     BigInteger y=new BigInteger(br.readLine());
     BigInteger R2=g.modPow(y,p);
