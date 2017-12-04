@@ -1,6 +1,7 @@
 package defhellman;
 
 import java.math.BigInteger;
+import java.security.SecureRandom;
 import java.util.*;
 import java.io.*;
 
